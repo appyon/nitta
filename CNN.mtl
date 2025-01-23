@@ -1,0 +1,102 @@
+# Blender 4.3.0 MTL File: 'None'
+# www.blender.org
+
+newmtl cake
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/azumakoutarou/Downloads/birthday_cake_obj/cake_texture.jpg
+
+newmtl candle
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/azumakoutarou/Downloads/birthday_cake_obj/velas.png
+
+newmtl chocolat
+Ns 96.078453
+Ka 1.000000 1.000000 1.000000
+Kd 0.066806 0.027326 0.018912
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl chocolat_cake
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd /Users/azumakoutarou/Downloads/birthday_cake_obj/cake_chocolat_texture.jpg
+
+newmtl creme
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 0.776112 0.214468
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl flame
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.737226
+illum 1
+map_Kd /Users/azumakoutarou/Downloads/birthday_cake_obj/flame.png
+
+newmtl mecha
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.020379 0.014825 0.009801
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+
+newmtl text
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+illum 1
+map_Kd /Users/azumakoutarou/Downloads/birthday_cake_obj/happy_birthday_text.png
+map_d /Users/azumakoutarou/Downloads/birthday_cake_obj/happy_birthday_text.png
+
+newmtl white-ceramic
+Ns 98.039215
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.215328 0.215328 0.215328
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+
+newmtl 鋼_-_サテン.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.190419 0.468531 0.628240
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 1
