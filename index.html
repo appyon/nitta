@@ -3,21 +3,26 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mraker Based Example</title>    
+        <title>3D Model with AR.js</title>    
     </head>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <!-- we import arjs version without NFT but with marker + location based support -->
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aframe-obj-loader-component/dist/aframe-obj-loader-component.js"></script> <!-- OBJ Loader for A-Frame -->
     <body style="margin : 0px; overflow: hidden;">
         <a-scene embedded arjs>
             <a-assets>
-                <img id="seruko" src="CNN.obj">
+                <!-- OBJファイルとMTLファイルを読み込む -->
+                <a-asset-item id="CNN-obj" src="CNN.obj"></a-asset-item>
+                <a-asset-item id="CNN-mtl" src="CNN.mtl"></a-asset-item>
             </a-assets>
+
+            <!-- マーカーに基づいて3Dモデルを表示 -->
             <a-marker type="pattern" url="patt.patt">
-                <a-entity>
-                    <a-image width="1" height="1" src="#seruko"></a-image>
-                </a-entity>
+                <a-entity obj-model="obj: #CNN-obj; mtl: #CNN-mtl" scale="0.5 0.5 0.5"></a-entity>
             </a-marker>
+
+            <!-- カメラを追加 -->
             <a-entity camera></a-entity>
         </a-scene>
     </body>
